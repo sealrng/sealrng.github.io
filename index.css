@@ -1,0 +1,46 @@
+body {
+    width: 100vw;
+    height: 92.3vh;
+    color: black;
+    overflow-x: hidden;
+    opacity: 100%;
+}
+
+#game {
+    width: auto;
+    height: 100%;
+    background: linear-gradient(225deg, #b4d3e0, #72d0f5);
+}
+
+#topbar {
+    color: white;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 5px;
+    height: 70px;
+    background-color: #212529;
+    border-bottom: #15191d solid 7px;
+    /* box-shadow: 0px 0px 15px 0px rgb(0, 0, 0); */
+}
+
+#topbar-buttons {
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.fadeout {
+    opacity: 0%;
+    transition: all 0.5s;
+}
+
+.fadein {
+    opacity: 100%;
+    transition: all 0.5s;
+}
+
+.backdrop {
+    background: black !important;
+    transition: all 1s;
+}
